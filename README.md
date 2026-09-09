@@ -31,7 +31,10 @@ python3 -m http.server 8000
 # then open http://localhost:8000
 ```
 
-Everything runs client-side in `script.js`; no data ever leaves the browser.
+Everything runs client-side, inlined in `index.html`; no data ever leaves the browser.
+(The calculation logic is a plain inline `<script>`, not an external module file — browsers
+block ES module scripts from loading over `file://`, which would break the "just double-click
+it" offline use case.)
 
 ## How the numbers are calculated
 
@@ -46,9 +49,8 @@ Everything runs client-side in `script.js`; no data ever leaves the browser.
 ## Project structure
 
 ```
-index.html   – markup / layout
+index.html   – markup / layout, plus all calculation logic and DOM wiring (inline <script>)
 style.css    – styling
-script.js    – all calculation logic and DOM wiring
 ```
 
 ## License
