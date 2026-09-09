@@ -3,7 +3,12 @@
 A small, dependency-free, fully offline calculator that compares **flat interest rate**
 loans against **reducing (diminishing) balance** loans — the same comparison offered by
 [cashkumar.com's flat vs reducing balance calculator](https://cashkumar.com/flat-interest-rate-vs-reducing-balance-interest-rate-calculator),
-reimplemented as a static page with no external calls, trackers, or build step.
+reimplemented as a static page with no build step and no trackers.
+
+The only external reference is the `Inter` font, loaded from Google Fonts for a nicer
+look when you're online — if there's no network (or you're opening this straight from
+disk with no connection), it just falls back to the system font and everything still
+works identically.
 
 ## Why this matters
 
