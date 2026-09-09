@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flat vs Reducing Balance Interest Rate Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Flat Interest Rate vs Reducing Balance Rate Calculator</h1>
+    <p class="subtitle">Compare flat and reducing (diminishing) balance interest rates on a loan, see the EMI, total interest, total payment, and how much one method costs you over the other &mdash; entirely offline, in your browser.</p>
+  </header>
+
+  <main>
+    <section class="inputs card">
+      <h2>Loan Details</h2>
+      <div class="input-grid">
+        <label class="field">
+          <span>Loan Amount</span>
+          <input type="number" id="loanAmount" value="100000" min="0" step="1000">
+        </label>
+
+        <label class="field">
+          <span>Tenure &mdash; Years</span>
+          <input type="number" id="tenureYears" value="3" min="0" step="1">
+        </label>
+
+        <label class="field">
+          <span>Tenure &mdash; Months</span>
+          <input type="number" id="tenureMonths" value="0" min="0" max="11" step="1">
+        </label>
+
+        <label class="field">
+          <span>Flat Rate (%) &mdash; Annual</span>
+          <input type="number" id="flatRate" value="12" min="0" step="0.01">
+        </label>
+
+        <label class="field">
+          <span>Reducing Rate (%) &mdash; Annual</span>
+          <input type="number" id="reducingRate" value="12" min="0" step="0.01">
+        </label>
+      </div>
+    </section>
+
+    <section class="results">
+      <article class="card result-panel" id="panelFlat">
+        <h2>Flat Interest Rate &rarr; Reducing Balance Rate</h2>
+        <div class="compare-row">
+          <div class="compare-cell">
+            <span class="label">Flat Interest</span>
+            <span class="value" id="flatRateOut">&mdash;</span>
+          </div>
+          <div class="arrow">&#8594;</div>
+          <div class="compare-cell">
+            <span class="label">Equivalent Reducing Balance</span>
+            <span class="value" id="flatEquivReducing">&mdash;</span>
+          </div>
+        </div>
+        <dl class="stats">
+          <div><dt>EMI</dt><dd id="flatEmi">&mdash;</dd></div>
+          <div><dt>Total Interest</dt><dd id="flatTotalInterest">&mdash;</dd></div>
+          <div><dt>Total Payment</dt><dd id="flatTotalPayment">&mdash;</dd></div>
+        </dl>
+        <p class="savings" id="flatSavings">&mdash;</p>
+      </article>
+
+      <article class="card result-panel" id="panelReducing">
+        <h2>Reducing Balance Rate &rarr; Flat Interest Rate</h2>
+        <div class="compare-row">
+          <div class="compare-cell">
+            <span class="label">Reducing Balance</span>
+            <span class="value" id="reducingRateOut">&mdash;</span>
+          </div>
+          <div class="arrow">&#8594;</div>
+          <div class="compare-cell">
+            <span class="label">Equivalent Flat Interest</span>
+            <span class="value" id="reducingEquivFlat">&mdash;</span>
+          </div>
+        </div>
+        <dl class="stats">
+          <div><dt>EMI</dt><dd id="reducingEmi">&mdash;</dd></div>
+          <div><dt>Total Interest</dt><dd id="reducingTotalInterest">&mdash;</dd></div>
+          <div><dt>Total Payment</dt><dd id="reducingTotalPayment">&mdash;</dd></div>
+        </dl>
+        <p class="savings" id="reducingSavings">&mdash;</p>
+      </article>
+    </section>
+
+    <section class="card explainer">
+      <h2>Flat vs Reducing (Diminishing) Balance &mdash; What's the Difference?</h2>
+      <p><strong>Reducing balance rate</strong> is calculated on the principal outstanding at the end of each period. As you repay principal through EMIs, interest for the next period is charged only on what's left &mdash; so the interest portion of your EMI shrinks over time.</p>
+      <p><strong>Flat rate</strong> is calculated on the original principal for the entire tenure, ignoring the principal you've already repaid. This is why a flat rate looks deceptively low compared to a reducing rate that produces the same EMI &mdash; a flat rate of 12% typically works out close to double that as an equivalent reducing rate.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Runs entirely in your browser &mdash; no data leaves your device. Not financial advice.</p>
+  </footer>
+
+  <script src="script.mjs" type="module"></script>
+</body>
+</html>
