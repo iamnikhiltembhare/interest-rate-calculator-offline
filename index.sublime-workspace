@@ -1,0 +1,224 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4896,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAACdEQAAPCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgo8dGl0bGU+RmxhdCB2cyBSZWR1Y2luZyBCYWxhbmNlIEludGVyZXN0IFJhdGUgQ2FsY3VsYXRvcjwvdGl0bGU+CjxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0ic3R5bGUuY3NzIj4KPC9oZWFkPgo8Ym9keT4KICA8aGVhZGVyIGNsYXNzPSJzaXRlLWhlYWRlciI+CiAgICA8aDE+RmxhdCBJbnRlcmVzdCBSYXRlIHZzIFJlZHVjaW5nIEJhbGFuY2UgUmF0ZSBDYWxjdWxhdG9yPC9oMT4KICAgIDxwIGNsYXNzPSJzdWJ0aXRsZSI+Q29tcGFyZSBmbGF0IGFuZCByZWR1Y2luZyAoZGltaW5pc2hpbmcpIGJhbGFuY2UgaW50ZXJlc3QgcmF0ZXMgb24gYSBsb2FuLCBzZWUgdGhlIEVNSSwgdG90YWwgaW50ZXJlc3QsIHRvdGFsIHBheW1lbnQsIGFuZCBob3cgbXVjaCBvbmUgbWV0aG9kIGNvc3RzIHlvdSBvdmVyIHRoZSBvdGhlciAmbWRhc2g7IGVudGlyZWx5IG9mZmxpbmUsIGluIHlvdXIgYnJvd3Nlci48L3A+CiAgPC9oZWFkZXI+CgogIDxtYWluPgogICAgPHNlY3Rpb24gY2xhc3M9ImlucHV0cyBjYXJkIj4KICAgICAgPGgyPkxvYW4gRGV0YWlsczwvaDI+CiAgICAgIDxkaXYgY2xhc3M9ImlucHV0LWdyaWQiPgogICAgICAgIDxsYWJlbCBjbGFzcz0iZmllbGQiPgogICAgICAgICAgPHNwYW4+TG9hbiBBbW91bnQ8L3NwYW4+CiAgICAgICAgICA8aW5wdXQgdHlwZT0ibnVtYmVyIiBpZD0ibG9hbkFtb3VudCIgdmFsdWU9IjEwMDAwMCIgbWluPSIwIiBzdGVwPSIxMDAwIj4KICAgICAgICA8L2xhYmVsPgoKICAgICAgICA8bGFiZWwgY2xhc3M9ImZpZWxkIj4KICAgICAgICAgIDxzcGFuPlRlbnVyZSAmbWRhc2g7IFllYXJzPC9zcGFuPgogICAgICAgICAgPGlucHV0IHR5cGU9Im51bWJlciIgaWQ9InRlbnVyZVllYXJzIiB2YWx1ZT0iMyIgbWluPSIwIiBzdGVwPSIxIj4KICAgICAgICA8L2xhYmVsPgoKICAgICAgICA8bGFiZWwgY2xhc3M9ImZpZWxkIj4KICAgICAgICAgIDxzcGFuPlRlbnVyZSAmbWRhc2g7IE1vbnRoczwvc3Bhbj4KICAgICAgICAgIDxpbnB1dCB0eXBlPSJudW1iZXIiIGlkPSJ0ZW51cmVNb250aHMiIHZhbHVlPSIwIiBtaW49IjAiIG1heD0iMTEiIHN0ZXA9IjEiPgogICAgICAgIDwvbGFiZWw+CgogICAgICAgIDxsYWJlbCBjbGFzcz0iZmllbGQiPgogICAgICAgICAgPHNwYW4+RmxhdCBSYXRlICglKSAmbWRhc2g7IEFubnVhbDwvc3Bhbj4KICAgICAgICAgIDxpbnB1dCB0eXBlPSJudW1iZXIiIGlkPSJmbGF0UmF0ZSIgdmFsdWU9IjEyIiBtaW49IjAiIHN0ZXA9IjAuMDEiPgogICAgICAgIDwvbGFiZWw+CgogICAgICAgIDxsYWJlbCBjbGFzcz0iZmllbGQiPgogICAgICAgICAgPHNwYW4+UmVkdWNpbmcgUmF0ZSAoJSkgJm1kYXNoOyBBbm51YWw8L3NwYW4+CiAgICAgICAgICA8aW5wdXQgdHlwZT0ibnVtYmVyIiBpZD0icmVkdWNpbmdSYXRlIiB2YWx1ZT0iMTIiIG1pbj0iMCIgc3RlcD0iMC4wMSI+CiAgICAgICAgPC9sYWJlbD4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CgogICAgPHNlY3Rpb24gY2xhc3M9InJlc3VsdHMiPgogICAgICA8YXJ0aWNsZSBjbGFzcz0iY2FyZCByZXN1bHQtcGFuZWwiIGlkPSJwYW5lbEZsYXQiPgogICAgICAgIDxoMj5GbGF0IEludGVyZXN0IFJhdGUgJnJhcnI7IFJlZHVjaW5nIEJhbGFuY2UgUmF0ZTwvaDI+CiAgICAgICAgPGRpdiBjbGFzcz0iY29tcGFyZS1yb3ciPgogICAgICAgICAgPGRpdiBjbGFzcz0iY29tcGFyZS1jZWxsIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImxhYmVsIj5GbGF0IEludGVyZXN0PC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0idmFsdWUiIGlkPSJmbGF0UmF0ZU91dCI+Jm1kYXNoOzwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iYXJyb3ciPiYjODU5NDs8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImNvbXBhcmUtY2VsbCI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJsYWJlbCI+RXF1aXZhbGVudCBSZWR1Y2luZyBCYWxhbmNlPC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0idmFsdWUiIGlkPSJmbGF0RXF1aXZSZWR1Y2luZyI+Jm1kYXNoOzwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkbCBjbGFzcz0ic3RhdHMiPgogICAgICAgICAgPGRpdj48ZHQ+RU1JPC9kdD48ZGQgaWQ9ImZsYXRFbWkiPiZtZGFzaDs8L2RkPjwvZGl2PgogICAgICAgICAgPGRpdj48ZHQ+VG90YWwgSW50ZXJlc3Q8L2R0PjxkZCBpZD0iZmxhdFRvdGFsSW50ZXJlc3QiPiZtZGFzaDs8L2RkPjwvZGl2PgogICAgICAgICAgPGRpdj48ZHQ+VG90YWwgUGF5bWVudDwvZHQ+PGRkIGlkPSJmbGF0VG90YWxQYXltZW50Ij4mbWRhc2g7PC9kZD48L2Rpdj4KICAgICAgICA8L2RsPgogICAgICAgIDxwIGNsYXNzPSJzYXZpbmdzIiBpZD0iZmxhdFNhdmluZ3MiPiZtZGFzaDs8L3A+CiAgICAgIDwvYXJ0aWNsZT4KCiAgICAgIDxhcnRpY2xlIGNsYXNzPSJjYXJkIHJlc3VsdC1wYW5lbCIgaWQ9InBhbmVsUmVkdWNpbmciPgogICAgICAgIDxoMj5SZWR1Y2luZyBCYWxhbmNlIFJhdGUgJnJhcnI7IEZsYXQgSW50ZXJlc3QgUmF0ZTwvaDI+CiAgICAgICAgPGRpdiBjbGFzcz0iY29tcGFyZS1yb3ciPgogICAgICAgICAgPGRpdiBjbGFzcz0iY29tcGFyZS1jZWxsIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImxhYmVsIj5SZWR1Y2luZyBCYWxhbmNlPC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0idmFsdWUiIGlkPSJyZWR1Y2luZ1JhdGVPdXQiPiZtZGFzaDs8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImFycm93Ij4mIzg1OTQ7PC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJjb21wYXJlLWNlbGwiPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0ibGFiZWwiPkVxdWl2YWxlbnQgRmxhdCBJbnRlcmVzdDwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9InZhbHVlIiBpZD0icmVkdWNpbmdFcXVpdkZsYXQiPiZtZGFzaDs8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGwgY2xhc3M9InN0YXRzIj4KICAgICAgICAgIDxkaXY+PGR0PkVNSTwvZHQ+PGRkIGlkPSJyZWR1Y2luZ0VtaSI+Jm1kYXNoOzwvZGQ+PC9kaXY+CiAgICAgICAgICA8ZGl2PjxkdD5Ub3RhbCBJbnRlcmVzdDwvZHQ+PGRkIGlkPSJyZWR1Y2luZ1RvdGFsSW50ZXJlc3QiPiZtZGFzaDs8L2RkPjwvZGl2PgogICAgICAgICAgPGRpdj48ZHQ+VG90YWwgUGF5bWVudDwvZHQ+PGRkIGlkPSJyZWR1Y2luZ1RvdGFsUGF5bWVudCI+Jm1kYXNoOzwvZGQ+PC9kaXY+CiAgICAgICAgPC9kbD4KICAgICAgICA8cCBjbGFzcz0ic2F2aW5ncyIgaWQ9InJlZHVjaW5nU2F2aW5ncyI+Jm1kYXNoOzwvcD4KICAgICAgPC9hcnRpY2xlPgogICAgPC9zZWN0aW9uPgoKICAgIDxzZWN0aW9uIGNsYXNzPSJjYXJkIGV4cGxhaW5lciI+CiAgICAgIDxoMj5GbGF0IHZzIFJlZHVjaW5nIChEaW1pbmlzaGluZykgQmFsYW5jZSAmbWRhc2g7IFdoYXQncyB0aGUgRGlmZmVyZW5jZT88L2gyPgogICAgICA8cD48c3Ryb25nPlJlZHVjaW5nIGJhbGFuY2UgcmF0ZTwvc3Ryb25nPiBpcyBjYWxjdWxhdGVkIG9uIHRoZSBwcmluY2lwYWwgb3V0c3RhbmRpbmcgYXQgdGhlIGVuZCBvZiBlYWNoIHBlcmlvZC4gQXMgeW91IHJlcGF5IHByaW5jaXBhbCB0aHJvdWdoIEVNSXMsIGludGVyZXN0IGZvciB0aGUgbmV4dCBwZXJpb2QgaXMgY2hhcmdlZCBvbmx5IG9uIHdoYXQncyBsZWZ0ICZtZGFzaDsgc28gdGhlIGludGVyZXN0IHBvcnRpb24gb2YgeW91ciBFTUkgc2hyaW5rcyBvdmVyIHRpbWUuPC9wPgogICAgICA8cD48c3Ryb25nPkZsYXQgcmF0ZTwvc3Ryb25nPiBpcyBjYWxjdWxhdGVkIG9uIHRoZSBvcmlnaW5hbCBwcmluY2lwYWwgZm9yIHRoZSBlbnRpcmUgdGVudXJlLCBpZ25vcmluZyB0aGUgcHJpbmNpcGFsIHlvdSd2ZSBhbHJlYWR5IHJlcGFpZC4gVGhpcyBpcyB3aHkgYSBmbGF0IHJhdGUgbG9va3MgZGVjZXB0aXZlbHkgbG93IGNvbXBhcmVkIHRvIGEgcmVkdWNpbmcgcmF0ZSB0aGF0IHByb2R1Y2VzIHRoZSBzYW1lIEVNSSAmbWRhc2g7IGEgZmxhdCByYXRlIG9mIDEyJSB0eXBpY2FsbHkgd29ya3Mgb3V0IGNsb3NlIHRvIGRvdWJsZSB0aGF0IGFzIGFuIGVxdWl2YWxlbnQgcmVkdWNpbmcgcmF0ZS48L3A+CiAgICA8L3NlY3Rpb24+CiAgPC9tYWluPgoKICA8Zm9vdGVyIGNsYXNzPSJzaXRlLWZvb3RlciI+CiAgICA8cD5SdW5zIGVudGlyZWx5IGluIHlvdXIgYnJvd3NlciAmbWRhc2g7IG5vIGRhdGEgbGVhdmVzIHlvdXIgZGV2aWNlLiBOb3QgZmluYW5jaWFsIGFkdmljZS48L3A+CiAgPC9mb290ZXI+CgogIDxzY3JpcHQgc3JjPSJzY3JpcHQubWpzIiB0eXBlPSJtb2R1bGUiPjwvc2NyaXB0Pgo8L2JvZHk+CjwvaHRtbD4KAAAAAAAAAAAgEwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgIAAAAAAADCAgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nikhil.tembhare/Chrome Download/GitHub Projects/Interest Rate Calculator Offline"
+	],
+	"file_history":
+	[
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								706,
+								706
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
