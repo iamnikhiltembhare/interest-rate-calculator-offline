@@ -25,32 +25,35 @@
   <main>
     <section class="inputs card">
       <h2>Loan Details</h2>
-      <div class="input-grid">
-        <label class="field">
-          <span>Loan Amount</span>
-          <input type="number" id="loanAmount" value="100000" min="0" step="1000">
-        </label>
+      <form id="calcForm">
+        <div class="input-grid">
+          <label class="field">
+            <span>Loan Amount</span>
+            <input type="number" id="loanAmount" value="100000" min="0" step="1000">
+          </label>
 
-        <label class="field">
-          <span>Tenure &mdash; Years</span>
-          <input type="number" id="tenureYears" value="3" min="0" step="1">
-        </label>
+          <label class="field">
+            <span>Tenure &mdash; Years</span>
+            <input type="number" id="tenureYears" value="3" min="0" step="1">
+          </label>
 
-        <label class="field">
-          <span>Tenure &mdash; Months</span>
-          <input type="number" id="tenureMonths" value="0" min="0" max="11" step="1">
-        </label>
+          <label class="field">
+            <span>Tenure &mdash; Months</span>
+            <input type="number" id="tenureMonths" value="0" min="0" max="11" step="1">
+          </label>
 
-        <label class="field">
-          <span>Flat Rate (%) &mdash; Annual</span>
-          <input type="number" id="flatRate" value="12" min="0" step="0.01">
-        </label>
+          <label class="field">
+            <span>Flat Rate (%) &mdash; Annual</span>
+            <input type="number" id="flatRate" value="12" min="0" step="0.01">
+          </label>
 
-        <label class="field">
-          <span>Reducing Rate (%) &mdash; Annual</span>
-          <input type="number" id="reducingRate" value="12" min="0" step="0.01">
-        </label>
-      </div>
+          <label class="field">
+            <span>Reducing Rate (%) &mdash; Annual</span>
+            <input type="number" id="reducingRate" value="12" min="0" step="0.01">
+          </label>
+        </div>
+        <button type="submit" class="submit-btn">Calculate</button>
+      </form>
     </section>
 
     <section class="results">
@@ -227,8 +230,9 @@
       setSavings(document.getElementById('reducingSavings'), reducing.totalPayment - flat.totalPayment);
     }
 
-    document.querySelectorAll('input').forEach((input) => {
-      input.addEventListener('input', recalculate);
+    document.getElementById('calcForm').addEventListener('submit', (event) => {
+      event.preventDefault();
+      recalculate();
     });
 
     recalculate();

@@ -105,6 +105,33 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.submit-btn {
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: var(--flexi-blue);
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.75rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.05s ease;
+}
+
+.submit-btn:hover {
+  background: #23b8ea;
+}
+
+.submit-btn:active {
+  transform: translateY(1px);
+}
+
+.submit-btn:focus-visible {
+  outline: 2px solid var(--navy);
+  outline-offset: 2px;
 }
 
 .field {
@@ -232,6 +259,10 @@ main {
 }
 
 @media (max-width: 640px) {
+  .submit-btn {
+    width: 100%;
+  }
+
   .stats {
     grid-template-columns: 1fr;
   }
