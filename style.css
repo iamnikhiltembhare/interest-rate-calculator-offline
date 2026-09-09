@@ -224,10 +224,6 @@ main {
   color: var(--good);
 }
 
-.explainer p {
-  color: var(--muted);
-}
-
 .site-footer {
   text-align: center;
   color: var(--muted);
